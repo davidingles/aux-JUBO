@@ -68,12 +68,12 @@ export default function EstucheConAsas({ title, escala, posicion }) {
   return (
     <>
       <Canvas camera={{ position: [0, .4, -0.6], near: .01, fov: 50 }}>
-        {/* <pointLight position={[100, 100, 0]} intensity={95555} decay={2} />
-        <pointLight position={[-100, 100, 0]} intensity={95555} decay={2} />
+        <pointLight position={[100, 100, 0]} intensity={44444} decay={2} />
+        <pointLight position={[-100, 100, 0]} intensity={44444} decay={2} />
         <pointLight position={[-100, 100, 100]} intensity={91111} decay={2} />
         <pointLight position={[100, -100, -100]} intensity={91111} decay={2} />
-        <pointLight position={[100, -100, 100]} intensity={91111} decay={2} /> */}
-        <ambientLight intensity={2} />
+        <pointLight position={[100, -100, 100]} intensity={91111} decay={2} />
+        {/* <ambientLight intensity={2} /> */}
         <Suspense fallback={<Fallback />}>
           {modelUrl && <Model url={modelUrl} miEscala={modelEscala} miPosicion={modelPosicion} />}
         </Suspense>
