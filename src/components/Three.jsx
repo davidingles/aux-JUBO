@@ -14,7 +14,7 @@ const Models = [
   // { title: 'jamoneroMacondo2', url: './gltf/jamoneroMacondo2.glb' },
   // { title: 'antorcha2', url: './antorcha2.glb', miEscala: .5, miPosicion: -0.3 },
   // { title: 'antorcha1', url: './antorcha1.glb', miEscala: .5, miPosicion: -0.3 },
-  { title: 'JUBO', url: './JUBO_PADEL.glb', miEscala: .9, miPosicion: .0 },
+  { title: 'JUBO1', url: './JUBO1.glb', miEscala: 1.5, miPosicion: .2 },
   // { title: 'FRUTOS', url: './FRUTOS.glb', miEscala: 1.3, miPosicion: .2 },
 ]
 
